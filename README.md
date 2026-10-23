@@ -69,6 +69,12 @@
 - [Snes9x Euphoria](https://github.com/BASLQC/snes9x-euphoria) — продолжение snes9xTYL.
 - [PicoDrive](https://github.com/PSP-Archive/PicoDrive-notaz) — Sega Mega Drive / Genesis.
 - [MasterBoy](https://github.com/PSP-Archive/MasterBoy) — Game Boy, Game Boy Color, Master System, Game Gear.
+- [InfoNES](https://github.com/PSP-Archive/InfoNES) — NES / Famicom.
+- [PCE-for-PSP](https://github.com/PSP-Archive/PCE-for-PSP) — PC Engine / TurboGrafx-16.
+- [FBA4PSP](https://github.com/PSP-Archive/FBA4PSP-original) — Final Burn Alpha: CPS1, CPS2, Neo Geo.
+- [oswanpsp](https://github.com/PSP-Archive/oswanpsp) — WonderSwan.
+- [PSPVice](https://github.com/PSP-Archive/PSPVice) — Commodore 64.
+- [PSP-UAE4ALL](https://github.com/PSP-Archive/PSP-UAE4ALL) — Amiga, порт TTYman.
 - [DOSBox](https://github.com/PSP-Archive/dosbox_psp) — DOS-игры, порт crazyc.
 - [MAME4ALL](https://github.com/PSP-Archive/PSP-MAME4ALL) — аркадные автоматы на MAME 0.34.
 - [nulldce-psp](https://github.com/PSP-Archive/nulldce-psp) — Sega Dreamcast, экспериментальный.
@@ -95,14 +101,29 @@
 - **Need for Speed: Underground 2** — порт на PSP, публичного репозитория нет, только демонстрация: [видео](https://www.youtube.com/watch?v=K3V-dOojS2w). `со своими копиями игры`
 - [Insomnia ProQuake](https://github.com/darkduke606/Insomnia-ProQuake-Engine) — Quake с аппаратным рендером.
 - [DQuakePlus](https://github.com/st1x51/DQuakePlus) — ещё один движок Quake для PSP.
+- [Quake II PSP](https://github.com/PSP-Archive/Quake-II-PSP) — Quake II, порт McZonk. `со своими копиями игры`
 - [ioQuake3-PSP](https://github.com/Mayo1970/ioQuake3-PSP) — Quake III Arena.
 - [Quake3PSP-mirror](https://github.com/Fighter19/Quake3PSP-mirror) — зеркало классического порта Quake III на случай потери оригинала.
+- [jfduke3d_psp](https://github.com/PSP-Archive/jfduke3d_psp) — Duke Nukem 3D на JonoF Duke 3D. `со своими копиями игры`
+- [Wolf3D-PSP](https://github.com/BenMcLean/Wolf3D-PSP) — Wolfenstein 3D, исходный порт Zack и Chilly Willy. `со своими копиями игры`
+- [wolf3Dpsp](https://github.com/Wa59/wolf3Dpsp) — тот же Wolfenstein 3D с автобегом, картой и правильным соотношением сторон. `со своими копиями игры`
+- [Rise of the Triad PSP](https://github.com/PSP-Archive/Rise-Of-The-Triad-PSP) — Rise of the Triad. `со своими копиями игры`
 - [psp-heretic](https://github.com/PSP-Archive/psp-heretic) — Heretic на движке Chocolate Doom. `со своими копиями игры`
+- [Jazz Jackrabbit PSP](https://github.com/PSP-Archive/Jazz-JackRabbit-PSP) — Jazz Jackrabbit, порт Deniska. `со своими копиями игры`
+- [Commander Keen PSP](https://github.com/PSP-Archive/Commander-Keen-PSP) — Commander Keen на CloneKeen. `со своими копиями игры`
+- [Aquaria PSP](https://github.com/PSP-Archive/aquaria-psp) — Aquaria, порт Andrew Church. `со своими копиями игры`
+- [xclannad](https://github.com/PSP-Archive/xclannad) — движок для визуальной новеллы Clannad. `со своими копиями игры`
 - [Helltaker PSP](https://github.com/surelynotvain/helltaker-psp) — Helltaker и Examtaker как демейк на нативном C-движке, играбельно на железе.
 
 ### Открытые движки и игры
 
 - [Kurok](https://github.com/TheMrIron2/kurok) — открытый шутер на движке Quake под PSP.
+- [Abuse](https://github.com/PSP-Archive/Abuse) — Abuse-SDL, мрачный платформер-стрелялка.
+- [C-Dogs SDL](https://github.com/PSP-Archive/CDogs) — C-Dogs, кооперативный top-down шутер.
+- [OpenTyrian](https://github.com/PSP-Archive/Open-Tyrian-PSP) — OpenTyrian, вертикальный скролл-шутер.
+- [OpenTTD PSP](https://github.com/PSP-Archive/OpenTTD-PSP) — OpenTTD, экономическая стратегия про транспорт.
+- [MUGEN (infcat)](https://github.com/PSP-Archive/infcat) — движок MUGEN, нужны свои пакеты персонажей. `со своими копиями игры`
+- [Frontier Elite II](https://github.com/PSP-Archive/Frontier-1337) — космический симулятор Frontier: Elite II.
 
 ## Игры PSP на других платформах
 
