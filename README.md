@@ -86,6 +86,8 @@
 
 ### PlayStation 2
 
+- [re3psp](https://github.com/st1x51/re3psp_files) — GTA III на движке re3: архив с файлами порта плюс `Re3PSPTools`, который за ~10 минут собирает репак из вашей папки с игрой. Известен сюжетный баг на миссии «Sayonara Salvatore». `со своими копиями игры`
+- **GTA: Vice City** — нативная сборка reVC на PSP, публичного репозитория нет, только демонстрации: [видео](https://www.youtube.com/watch?v=KxtUNkSuoc4), [ещё одно](https://www.youtube.com/watch?v=hZkrVOQR-MU). `со своими копиями игры`
 - [Sandstone Engine](https://github.com/SandstoneDev/sandstone-engine) + [Quarry](https://github.com/SandstoneDev/quarry) — GTA: San Andreas (PS2) на PSP: нативный движок и конвертер данных из своего образа диска (мир, машины, HUD, интерьеры, радио, катсцены, миссии). Официально игра в README не названа. `со своими копиями игры`
 - [shar-psp-engine](https://github.com/robvagin/shar-psp-engine) — The Simpsons: Hit & Run (PS2), нативный движок на PSPSDK, данные конвертируются из своего диска. `со своими копиями игры`
 
