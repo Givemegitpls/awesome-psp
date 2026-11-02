@@ -5,13 +5,14 @@
 > Нужна консоль с кастомной прошивкой (ARK-4 или ARK-5) и карта Memory Stick PRO Duo.
 > Проекты помечены как `со своими копиями игры` там, где нужны собственные файлы игры.
 
-Каталог homebrew и архив старых сборок: [PSP-Archive](https://github.com/PSP-Archive) (532 репозитория, включая исходники давно закрытых проектов) и [PSP-Archive.github.io](https://github.com/PSP-Archive/PSP-Archive.github.io).
+Каталог homebrew и архив старых сборок: [PSP-Archive](https://github.com/PSP-Archive) (532 репозитория, включая исходники давно закрытых проектов) и [PSP-Archive.github.io](https://github.com/PSP-Archive/PSP-Archive.github.io). Официальная база homebrew с данными для инсталляторов — [pspdev/homebrew](https://github.com/pspdev/homebrew), справка по кодам ошибок и ремонту — [PSP Homebrew Community Wiki](https://github.com/psp-homebrew-community/wiki).
 
 ## Содержание
 
 - [Прошивка и загрузка](#прошивка-и-загрузка)
 - [Меню, файлы, медиа](#меню-файлы-медиа)
 - [Кастомизация и плагины](#кастомизация-и-плагины)
+- [Железо](#железо)
 - [Сохранения и читы](#сохранения-и-читы)
 - [Эмуляторы](#эмуляторы)
 - [Нативные порты](#нативные-порты)
@@ -24,6 +25,12 @@
 
 - [ARK-5](https://github.com/PSP-Arkfive/ARK-5) — актуальная кастомная прошивка для PSP и ePSP на Vita, живая разработка (ранее — ARK-4).
 - [ARK-4](https://github.com/PSP-Archive/ARK-4) — предыдущая ветка, репозиторий заархивирован: сборки, плагины и инструкции остались.
+- [FasterARK](https://github.com/PSP-Arkfive/FasterARK) — установщик и загрузчик ARK для PSP и Vita; полная сборка несёт DC10, ARK-150, LEDA, кастомный лаунчер и VSH-меню.
+- [DC10 (Despertar Del Cementerio)](https://github.com/PSP-Arkfive/Despertar-Del-Cementerio) — восстановление «кирпичей», актуальная сборка под 6.61.
+- [ARK-150](https://github.com/PSP-Arkfive/ARK-150) — ARK на ядре 1.50 для PSP-1000: двойная загрузка и старое homebrew; на 2K и новее вместо него ставят плагин LEDA.
+- [TimeMachine](https://github.com/PSP-Arkfive/TimeMachine) — установка и загрузка прошивки и CFW целиком с карты памяти.
+- [M33-7](https://github.com/PSP-Arkfive/M33-7), [PRO-D](https://github.com/PSP-Arkfive/PRO-D), [LME-3](https://github.com/PSP-Arkfive/LME-3) — обновлённые ревизии старых CFW M33, PRO и LME из архивов сцены.
+- [Launcher-Menus](https://github.com/PSP-Arkfive/Launcher-Menus) — набор кастомных меню лаунчера на случай, когда XMB недоступен.
 - [Chronoswitch](https://github.com/PSP-Archive/Chronoswitch) — даунгрейдер прошивки, откат на нужную версию.
 - [LibPspExploit](https://github.com/PSP-Archive/LibPspExploit) — библиотека ядерных эксплойтов, база для собственных загрузчиков.
 - [Universal Flash Dumper](https://github.com/PSP-Archive/Universal-Flash-Dumper) — дамп флеш-памяти консоли на большинстве прошивок.
@@ -33,10 +40,13 @@
 - [psp5](https://github.com/08Weber/psp5) — тёмный лаунчер игр под ARK-5, заменяет штатный список.
 - [CMFileManager-PSP](https://github.com/joel16/CMFileManager-PSP) — файловый менеджер в духе CM: копирование, архивы, запуск.
 - [PSP-FTPD](https://github.com/PSP-Archive/PSP-FTPD) — FTP-сервер прямо на консоли.
+- [PocketSend-PSP](https://github.com/caesarium25/PocketSend-PSP) — передача файлов с ПК и телефона по протоколу LocalSend.
 - [RemoteJoyLite](https://github.com/PSP-Archive/RemoteJoyLite) — плагин, выводит экран консоли на ПК по USB.
 - [PSP-LCDC-Capture](https://github.com/mayuta212/PSP-LCDC-Capture) — захват видео и звука по USB одним кабелем, отдельный PRX под ARK-5.
 - [PSPdisp](https://github.com/PSP-Archive/PSPdisp) — PSP как второй монитор Windows.
+- [Moonlight-PSP](https://github.com/k4idyn/Moonlight-PSP) — стриминг игр с ПК через Sunshine, аппаратное декодирование H.264.
 - [PSPWrite](https://github.com/PSP-Archive/PSPWrite) — текстовый редактор.
+- [WiliMini](https://github.com/wilimini/WiliMini) — клиент Bilibili.
 - [MapThis](https://github.com/PSP-Archive/MapThis) — просмотр карт.
 - [pbp-unpacker](https://github.com/PSP-Archive/pbp-unpacker) — разборка и сборка PBP под Windows.
 - [UMD Region Changer](https://github.com/PSP-Archive/UMD_Region_Changer) — смена региона UMD.
@@ -51,6 +61,14 @@
 - [BatteryGuardPro](https://github.com/XirnoTV/BatteryGuardPro-for-main-psp-street) — фикс VRAM-багов в тяжёлых играх (NFS, MHFU), работает на всех ревизиях.
 - [GTANativeRes](https://github.com/TheOfficialFloW/GTANativeRes) — патч внутреннего разрешения GTA: LCS и VCS (архив).
 - [psp-gta_trophies](https://github.com/Freakler/psp-gta_trophies) — трофеи для Liberty City Stories и Vice City Stories.
+- [Gran Turismo PSP Career](https://github.com/Memetrix/gran-turismo-psp-career) — фанатский патч: карьера в GT PSP, пять вырезанных трасс и 32 машины.
+
+## Железо
+
+Аппаратные моды и расширения: часть требует пайки или второй платы рядом.
+
+- [PSP-Bluetooth](https://github.com/ste2425/PSP-Bluetooth) — ESP32 вместо UMD-привода: Bluetooth-геймпады на PSP-1000/2000/3000.
+- [PSPExp](https://github.com/pleft/PSPExp) — PSP-1000 с CFW плюс Linux-плата по USB: плата запускает игры, PSP выводит картинку, звук и ввод.
 
 ## Сохранения и читы
 
@@ -65,6 +83,7 @@
 - [DaedalusX64](https://github.com/DaedalusX64/daedalus) — Nintendo 64.
 - [gpSP](https://github.com/PSP-Archive/gpsp) — Game Boy Advance от Exophase, эталон скорости.
 - [unofficial-gpSP-kai](https://github.com/PSP-Archive/unofficial-gpSP-kai) — форк gpSP от Takka с доработками.
+- [GBA-Rush-PSP](https://github.com/redcode9/GBA-Rush-PSP) — GBA-эмулятор, форк TempGBA4PSP-mod с упором на скорость.
 - [snes9xTYL](https://github.com/173210/snes9xTYL) — Super Nintendo.
 - [Snes9x Euphoria](https://github.com/BASLQC/snes9x-euphoria) — продолжение snes9xTYL.
 - [PicoDrive](https://github.com/PSP-Archive/PicoDrive-notaz) — Sega Mega Drive / Genesis.
@@ -91,16 +110,23 @@
 - [Sandstone Engine](https://github.com/SandstoneDev/sandstone-engine) + [Quarry](https://github.com/SandstoneDev/quarry) — GTA: San Andreas (PS2) на PSP: нативный движок и конвертер данных из своего образа диска (мир, машины, HUD, интерьеры, радио, катсцены, миссии). Официально игра в README не названа. `со своими копиями игры`
 - [shar-psp-engine](https://github.com/robvagin/shar-psp-engine) — The Simpsons: Hit & Run (PS2), нативный движок на PSPSDK, данные конвертируются из своего диска. `со своими копиями игры`
 
+### Nintendo 64
+
+- [oot-PSP](https://github.com/z2442/oot-PSP) — The Legend of Zelda: Ocarina of Time из декомпиляции, сборки в CI на каждый пуш; нужен свой ROM NTSC 1.0. `со своими копиями игры`
+
 ### J2ME и мобильные
 
 - [Gravity Defied PSP](https://github.com/antim0118/gravity_defied_psp) — полный порт легендарного мотокросса на PSP: весь контент оригинала, gLib2D и intraFont, готовые сборки на [GameJolt](https://gamejolt.com/games/gravitydefiedpsp/1060552).
 - [Gravity Defied SDL2](https://github.com/den4iklovelinux/gravity_defied_psp) — база порта на SDL2, промежуточный репозиторий для сборки под другие платформы.
 - [gravity_defied_cpp](https://github.com/rgimad/gravity_defied_cpp) — исходный C++ порт с J2ME, от которого идут обе PSP-версии.
 - [DoomRPG4PSP](https://github.com/dadcapgamer/DoomRPG4PSP) — Doom RPG (мобильная Java-игра) нативно на PSP.
+- [WolfensteinRPG4PSP](https://github.com/dadcapgamer/WolfensteinRPG4PSP) — Wolfenstein RPG нативно на PSP, на базе WolfensteinRPG-RE.
+- [Minecraft PE PSP](https://github.com/Pencea-Flavius/Minecraft-PE-PSP) — порт Minecraft Pocket Edition 0.6.1: мир, мобы, крафт, сохранения; работает и на PSP-1000.
+- [Minecraft Story Mode](https://github.com/entitybtw/mcsm_portable) — Minecraft Story Mode: Season 1, Netflix Edition.
 
 ### ПК
 
-- **Need for Speed: Underground 2** — порт на PSP, публичного репозитория нет, только демонстрация: [видео](https://www.youtube.com/watch?v=K3V-dOojS2w). `со своими копиями игры`
+- **Need for Speed: Underground 2** — порт на PSP, публичного репозитория нет; идёт закрытая бета первой волны на 30 человек: [заявка](https://pessoal-nfsu2-beta.vercel.app/) (отбор вручную, сборка открывается по инвайту в приватный репозиторий), [демонстрация](https://www.youtube.com/watch?v=K3V-dOojS2w). `со своими копиями игры`
 - [Insomnia ProQuake](https://github.com/darkduke606/Insomnia-ProQuake-Engine) — Quake с аппаратным рендером.
 - [DQuakePlus](https://github.com/st1x51/DQuakePlus) — ещё один движок Quake для PSP.
 - [Quake II PSP](https://github.com/PSP-Archive/Quake-II-PSP) — Quake II, порт McZonk. `со своими копиями игры`
@@ -116,6 +142,9 @@
 - [Aquaria PSP](https://github.com/PSP-Archive/aquaria-psp) — Aquaria, порт Andrew Church. `со своими копиями игры`
 - [xclannad](https://github.com/PSP-Archive/xclannad) — движок для визуальной новеллы Clannad. `со своими копиями игры`
 - [Helltaker PSP](https://github.com/surelynotvain/helltaker-psp) — Helltaker и Examtaker как демейк на нативном C-движке, играбельно на железе.
+- [Touhou 6 PSP](https://github.com/kan8223-dotcom/th06-psp-native) — Embodiment of Scarlet Devil, нативный порт; нужны данные оригинальной игры. `со своими копиями игры`
+- [Touhou 10 PSP](https://github.com/kan8223-dotcom/th10-psp-native) — Mountain of Faith, один EBOOT на все модели PSP. `со своими копиями игры`
+- [REminiscencePSP](https://github.com/PSP-Archive/REminiscencePSP) — Flashback: The Quest for Identity, порт Sektor. `со своими копиями игры`
 
 ### Открытые движки и игры
 
@@ -126,11 +155,18 @@
 - [OpenTTD PSP](https://github.com/PSP-Archive/OpenTTD-PSP) — OpenTTD, экономическая стратегия про транспорт.
 - [MUGEN (infcat)](https://github.com/PSP-Archive/infcat) — движок MUGEN, нужны свои пакеты персонажей. `со своими копиями игры`
 - [Frontier Elite II](https://github.com/PSP-Archive/Frontier-1337) — космический симулятор Frontier: Elite II.
+- [Champyonshipp Kaiten Patissier](https://github.com/PSP-Archive/Champyonshipp-Kaiten-Patissier) — открытая игра Alpha Secret Base, порт MK2k.
+- [Gannatsu Portable](https://github.com/PSP-Archive/Gannatsu-Portable) — Ganbare Natsuki-san от Alpha Secret Base.
 
 ## Игры PSP на других платформах
 
 - [PPSSPP](https://github.com/hrydgard/ppsspp) — эмулятор PSP для ПК, Android, iOS и консолей.
 - [PSPRecomp](https://github.com/jessicanataliagta/PSPRecomp) — фреймворк статической рекомпиляции PSP-игр: Allegrex MIPS в нативный код.
+- [psp-web-recomp](https://github.com/snuri00/psp-web-recomp) — рекомпиляция PSP-игр в WebAssembly: браузер, HLE-ядро, WebGL2.
+- [Nakagawa-Recomp](https://github.com/Jstar269/Nakagawa-Recomp) — статический рекомпилятор: свой диск PSP превращается в программу под Windows. `со своими копиями игры`
+- [God of War PSP Recomp](https://github.com/DrummingBird1/gow-psp-recomp) — Chains of Olympus и Ghost of Sparta нативно на ПК. `со своими копиями игры`
+- [MHForever](https://github.com/Mango77x/MHForever) — Monster Hunter Freedom Unite нативно на ПК, без эмулятора. `со своими копиями игры`
+- [PSBridge](https://github.com/eclipsebladestudioficial/PSBridge) — обратное направление: PSP-софт на PS2 через трансляцию вызовов.
 - [sp00nznet/psprecomp](https://github.com/sp00nznet/psprecomp) — альтернативный тулкит рекомпиляции PSP в C.
 - [Yakumo](https://github.com/TeamGDB/Yakumo) — рекомпиляция PSP-игры в нативный исполняемый файл, Vulkan и SDL3. `со своими копиями игры`
 - [fuc-recomp](https://github.com/elprogramadorloco-arch/fuc-recomp) — гибрид: геймплей PS2-версии Fate/unlimited codes с PSP-ассетами и управлением. `со своими копиями игры`
@@ -146,11 +182,18 @@
 - [pspdev](https://github.com/pspdev/pspdev) — Docker-образ со всем тулчейном для сборки под PSP.
 - [psp-forge](https://github.com/Hauntlight/psp-forge) — all-in-one CLI, пайплайн ассетов и микро-движок на C99.
 - [AMGLib-Plus](https://github.com/jopadan/AMGLib-Plus) — 3D-движок и утилиты для PSPSDK.
+- [rust-psp](https://github.com/overdrivenpotato/rust-psp) — Rust на PSP: паника, аллокатор, доступ к системным библиотекам.
+- [Zig-PSP](https://github.com/zPSP-Dev/Zig-PSP) — Zig для PSP.
+- [psplinkusb](https://github.com/pspdev/psplinkusb) — запуск и отладка homebrew по USB.
+- [UOFW](https://github.com/uofw/uofw) — реверс официальной прошивки целиком.
 - [box3d-psp](https://github.com/Saymond/box3d-psp) — физика Box3D с ускорением через VFPU и рендером GU.
 - [MicroAllegrex](https://github.com/Goatman13/MicroAllegrex) — плагин Allegrex для декомпилятора IDA Hex-Rays.
+- [ghidra-allegrex](https://github.com/kotcrab/ghidra-allegrex) — модуль процессора Allegrex для Ghidra.
 - [PSP-Homebrew-Dev-Notes](https://github.com/JustKidding23/PSP-Homebrew-Dev-Notes) — особенности железа PSP, IO карты памяти и отличия от PPSSPP.
 - [3D-PSP-Tutorials](https://github.com/PSP-Archive/3D-PSP-Tutorials) — учебник по 3D от Ghoti.
 - [pspdecompiler](https://github.com/PSP-Archive/pspdecompiler) — декомпилятор PRX.
+- [PatchSFO](https://github.com/PSP-Archive/PatchSFO) — правка SFO в EBOOT под текущую прошивку.
+- [PSvid](https://github.com/PSP-Archive/PSvid) — конвертер видео для PSP, PS3 и Vita.
 - [PSDevWiki](https://www.psdevwiki.com/psp/) — вики по железу, прошивкам и форматам.
 
 ## Серая зона
