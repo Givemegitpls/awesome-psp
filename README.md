@@ -47,6 +47,8 @@
 - [Moonlight-PSP](https://github.com/k4idyn/Moonlight-PSP) — стриминг игр с ПК через Sunshine, аппаратное декодирование H.264.
 - [PSPWrite](https://github.com/PSP-Archive/PSPWrite) — текстовый редактор.
 - [WiliMini](https://github.com/wilimini/WiliMini) — клиент Bilibili.
+- [PSPotify ME](https://github.com/Luxotick/PSPotify-ME) — нативный клиент Spotify, Media Engine декодирует Ogg Vorbis, XMB-интерфейс с темами. Требует Premium, проект в разработке.
+- [YMPSP](https://github.com/amdray/yandex_music_psp) — клиент Yandex Music: плейлисты, поиск, стриминг и кэш, TLS 1.2 через mbedTLS, MP3 до 320 kbps на sceMp3.
 - [MapThis](https://github.com/PSP-Archive/MapThis) — просмотр карт.
 - [pbp-unpacker](https://github.com/PSP-Archive/pbp-unpacker) — разборка и сборка PBP под Windows.
 - [UMD Region Changer](https://github.com/PSP-Archive/UMD_Region_Changer) — смена региона UMD.
