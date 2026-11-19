@@ -26,7 +26,7 @@
 - [ARK-5](https://github.com/PSP-Arkfive/ARK-5) — актуальная кастомная прошивка для PSP и ePSP на Vita, живая разработка (ранее — ARK-4).
 - [ARK-4](https://github.com/PSP-Archive/ARK-4) — предыдущая ветка, репозиторий заархивирован: сборки, плагины и инструкции остались.
 - [FasterARK](https://github.com/PSP-Arkfive/FasterARK) — установщик и загрузчик ARK для PSP и Vita; полная сборка несёт DC10, ARK-150, LEDA, кастомный лаунчер и VSH-меню.
-- [DC10 (Despertar Del Cementerio)](https://github.com/PSP-Arkfive/Despertar-Del-Cementerio) — восстановление «кирпичей», актуальная сборка под 6.61.
+- [DC10 (Despertar Del Cementerio)](https://github.com/PSP-Arkfive/Despertar-Del-Cementerio) — восстановление «кирпичей», актуальная сборка под 6.61. С ARK 5.1.0 / DC 10.12 починен WLAN на поздних PSP-3000 (ревизии 07g и 09g): в манифестах flash0 не хватало `vsh/module/netconf_plugin.prx`, из-за чего не открывались «Настройки сети», а обновление по сети вешало консоль.
 - [ARK-150](https://github.com/PSP-Arkfive/ARK-150) — ARK на ядре 1.50 для PSP-1000: двойная загрузка и старое homebrew; на 2K и новее вместо него ставят плагин LEDA.
 - [TimeMachine](https://github.com/PSP-Arkfive/TimeMachine) — установка и загрузка прошивки и CFW целиком с карты памяти.
 - [M33-7](https://github.com/PSP-Arkfive/M33-7), [PRO-D](https://github.com/PSP-Arkfive/PRO-D), [LME-3](https://github.com/PSP-Arkfive/LME-3) — обновлённые ревизии старых CFW M33, PRO и LME из архивов сцены.
@@ -69,6 +69,7 @@
 
 - [PSP-Bluetooth](https://github.com/ste2425/PSP-Bluetooth) — ESP32 вместо UMD-привода: Bluetooth-геймпады на PSP-1000/2000/3000.
 - [PSPExp](https://github.com/pleft/PSPExp) — PSP-1000 с CFW плюс Linux-плата по USB: плата запускает игры, PSP выводит картинку, звук и ввод.
+- [psp-wlan-linux](https://github.com/zeroootwo/psp-wlan-linux) — Wi-Fi под uClinux на PSP-3000: драйвер WLAN-чипа, WPA2-суппликант и супервизор подключения, настоящий `wlan0` с DHCP, DNS и TCP. Wi-Fi чип впервые заработал под Linux; протокол описан в репозитории. Нужна своя прошивка чипа из дампа консоли.
 
 ## Сохранения и читы
 
@@ -126,7 +127,8 @@
 
 ### ПК
 
-- **Need for Speed: Underground 2** — порт на PSP, публичного репозитория нет; идёт закрытая бета первой волны на 30 человек: [заявка](https://pessoal-nfsu2-beta.vercel.app/) (отбор вручную, сборка открывается по инвайту в приватный репозиторий), [демонстрация](https://www.youtube.com/watch?v=K3V-dOojS2w). `со своими копиями игры`
+- [OpenUG2-PSP](https://github.com/jussimir-labs/OpenUG2-PSP) — Need for Speed: Underground 2, нативный порт. Открытая бета 0.4.0: готовый `EBOOT.PBP` плюс генератор данных из своего образа диска для Windows x64, Linux x86-64 (включая SteamOS) и macOS; нужен образ NTSC-U — PS2 `SLUS_210.65` или Xbox. Инвайт не нужен, баг-репорты через GitHub issues. `со своими копиями игры`
+- [OMORI](https://github.com/meetox80/omori) — OMORI на PSP: движок RPG Maker MV, переписанный с нуля на C++, сборка ~1.6 ГБ из своей Steam-копии, работает на железе; PSP-1000 получает урезанный режим памяти. `со своими копиями игры`
 - [Insomnia ProQuake](https://github.com/darkduke606/Insomnia-ProQuake-Engine) — Quake с аппаратным рендером.
 - [DQuakePlus](https://github.com/st1x51/DQuakePlus) — ещё один движок Quake для PSP.
 - [Quake II PSP](https://github.com/PSP-Archive/Quake-II-PSP) — Quake II, порт McZonk. `со своими копиями игры`
@@ -166,6 +168,9 @@
 - [Nakagawa-Recomp](https://github.com/Jstar269/Nakagawa-Recomp) — статический рекомпилятор: свой диск PSP превращается в программу под Windows. `со своими копиями игры`
 - [God of War PSP Recomp](https://github.com/DrummingBird1/gow-psp-recomp) — Chains of Olympus и Ghost of Sparta нативно на ПК. `со своими копиями игры`
 - [MHForever](https://github.com/Mango77x/MHForever) — Monster Hunter Freedom Unite нативно на ПК, без эмулятора. `со своими копиями игры`
+- [azazel6](https://github.com/zxyandreay/azazel6) — Tekken 6 (PSP) нативно на Android ARM64 через статическую рекомпиляцию. Пока исследование: загрузка доходит до инициализации графики, игра не запускается. `со своими копиями игры`
+- [sims2-psp-recomp](https://github.com/tokenbroker/sims2-psp-recomp) — The Sims 2 (PSP) нативно на ПК: Vulkan, Windows и Linux, Wayland/X11. `со своими копиями игры`
+- [swbes-recomp](https://github.com/Revgith/swbes-recomp) — Star Wars Battlefront: Elite Squadron (PSP) нативно на ПК. `со своими копиями игры`
 - [PSBridge](https://github.com/eclipsebladestudioficial/PSBridge) — обратное направление: PSP-софт на PS2 через трансляцию вызовов.
 - [sp00nznet/psprecomp](https://github.com/sp00nznet/psprecomp) — альтернативный тулкит рекомпиляции PSP в C.
 - [Yakumo](https://github.com/TeamGDB/Yakumo) — рекомпиляция PSP-игры в нативный исполняемый файл, Vulkan и SDL3. `со своими копиями игры`
@@ -194,6 +199,7 @@
 - [pspdecompiler](https://github.com/PSP-Archive/pspdecompiler) — декомпилятор PRX.
 - [PatchSFO](https://github.com/PSP-Archive/PatchSFO) — правка SFO в EBOOT под текущую прошивку.
 - [PSvid](https://github.com/PSP-Archive/PSvid) — конвертер видео для PSP, PS3 и Vita.
+- [PSX2PSP-Reborn](https://github.com/hkmodd/PSX2PSP-Reborn) — сборщик POPS `EBOOT.PBP` на Rust: мультидиск, ICON1/SND0, предпросмотр XMB.
 - [PSDevWiki](https://www.psdevwiki.com/psp/) — вики по железу, прошивкам и форматам.
 
 ## Серая зона
