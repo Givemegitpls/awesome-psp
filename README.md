@@ -39,6 +39,7 @@
 
 - [psp5](https://github.com/08Weber/psp5) — тёмный лаунчер игр под ARK-5, заменяет штатный список.
 - [CMFileManager-PSP](https://github.com/joel16/CMFileManager-PSP) — файловый менеджер в духе CM: копирование, архивы, запуск.
+- [PSPDX](https://github.com/chriopter/pspdx-app) — установка и обновление homebrew и плагинов прямо с консоли, без ПК: каталог по [стандарту PSPDX](https://github.com/chriopter/pspdx), свой источник или доступ через Tailscale, на PSP Street — онлайн по USB-кабелю. Для WPA2 нужен ARK-5.
 - [PSP-FTPD](https://github.com/PSP-Archive/PSP-FTPD) — FTP-сервер прямо на консоли.
 - [PocketSend-PSP](https://github.com/caesarium25/PocketSend-PSP) — передача файлов с ПК и телефона по протоколу LocalSend.
 - [RemoteJoyLite](https://github.com/PSP-Archive/RemoteJoyLite) — плагин, выводит экран консоли на ПК по USB.
@@ -87,6 +88,7 @@
 - [gpSP](https://github.com/PSP-Archive/gpsp) — Game Boy Advance от Exophase, эталон скорости.
 - [unofficial-gpSP-kai](https://github.com/PSP-Archive/unofficial-gpSP-kai) — форк gpSP от Takka с доработками.
 - [GBA-Rush-PSP](https://github.com/redcode9/GBA-Rush-PSP) — GBA-эмулятор, форк TempGBA4PSP-mod с упором на скорость.
+- [GBAdhoc](https://github.com/ShoshinFauteux/GBAdhoc) — Game Boy Advance: рендер на втором CPU и мультиплеер Wireless Adapter по ad-hoc Wi-Fi.
 - [snes9xTYL](https://github.com/173210/snes9xTYL) — Super Nintendo.
 - [Snes9x Euphoria](https://github.com/BASLQC/snes9x-euphoria) — продолжение snes9xTYL.
 - [PicoDrive](https://github.com/PSP-Archive/PicoDrive-notaz) — Sega Mega Drive / Genesis.
@@ -99,6 +101,7 @@
 - [PSP-UAE4ALL](https://github.com/PSP-Archive/PSP-UAE4ALL) — Amiga, порт TTYman.
 - [DOSBox](https://github.com/PSP-Archive/dosbox_psp) — DOS-игры, порт crazyc.
 - [MAME4ALL](https://github.com/PSP-Archive/PSP-MAME4ALL) — аркадные автоматы на MAME 0.34.
+- [ReiREM](https://github.com/Reyanon/ReiREM) — аркадные автоматы Irem на драйверах FinalBurn Neo: 10 плат и 196 сетов, полная скорость на 333 МГц.
 - [nulldce-psp](https://github.com/PSP-Archive/nulldce-psp) — Sega Dreamcast, экспериментальный.
 - [ScummVM](https://github.com/scummvm/scummvm) — квесты LucasArts и Sierra, PSP-сборки в upstream.
 
@@ -116,6 +119,11 @@
 ### Nintendo 64
 
 - [oot-PSP](https://github.com/z2442/oot-PSP) — The Legend of Zelda: Ocarina of Time из декомпиляции, сборки в CI на каждый пуш; нужен свой ROM NTSC 1.0. `со своими копиями игры`
+- [Animal Forest](https://github.com/bruder-grimm/animal_forest_psp) — Animal Forest (N64) рекомпиляцией на PSP, работа в процессе: нужен свой ROM NUS-NAFJ, английский текст берётся из образа GameCube-версии Animal Crossing. `со своими копиями игры`
+
+### Dreamcast
+
+- [JGR Portable](https://github.com/beckerd/psp_jgr_portable) — Jet Grind Radio (Dreamcast), нативный порт: открытая бета 1.0.2, готовый `EBOOT.PBP` в релизах, данные готовятся из своего GDI (USA `MK-51058` v1.005) через `Prepare` в Chrome или прямо на консоли; нужно ~1 ГБ на карте. Graffiti Maker и Graffiti Souls не реализованы. `со своими копиями игры`
 
 ### J2ME и мобильные
 
@@ -188,10 +196,12 @@
 - [pspsdk](https://github.com/pspdev/pspsdk) — официальный SDK: тулчейн, libc, документация.
 - [pspdev](https://github.com/pspdev/pspdev) — Docker-образ со всем тулчейном для сборки под PSP.
 - [psp-forge](https://github.com/Hauntlight/psp-forge) — all-in-one CLI, пайплайн ассетов и микро-движок на C99.
+- [OpenLua](https://github.com/epr-ds/openlua) — Lua 5.1 с нуля, совместим с API OneLua: спрайты GE, шрифты PGF и PNG, звук, видео PMF, сеть.
 - [AMGLib-Plus](https://github.com/jopadan/AMGLib-Plus) — 3D-движок и утилиты для PSPSDK.
 - [rust-psp](https://github.com/overdrivenpotato/rust-psp) — Rust на PSP: паника, аллокатор, доступ к системным библиотекам.
 - [Zig-PSP](https://github.com/zPSP-Dev/Zig-PSP) — Zig для PSP.
 - [psplinkusb](https://github.com/pspdev/psplinkusb) — запуск и отладка homebrew по USB.
+- [pspkit-https](https://github.com/chriopter/pspkit-https) — HTTPS с TLS 1.3 для PSP, библиотека для своих приложений.
 - [UOFW](https://github.com/uofw/uofw) — реверс официальной прошивки целиком.
 - [box3d-psp](https://github.com/Saymond/box3d-psp) — физика Box3D с ускорением через VFPU и рендером GU.
 - [MicroAllegrex](https://github.com/Goatman13/MicroAllegrex) — плагин Allegrex для декомпилятора IDA Hex-Rays.
