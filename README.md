@@ -115,6 +115,9 @@
 - **GTA: Vice City** — нативная сборка reVC на PSP, публичного репозитория нет, только демонстрации: [видео](https://www.youtube.com/watch?v=KxtUNkSuoc4), [ещё одно](https://www.youtube.com/watch?v=hZkrVOQR-MU). `со своими копиями игры`
 - [Sandstone Engine](https://github.com/SandstoneDev/sandstone-engine) + [Quarry](https://github.com/SandstoneDev/quarry) — GTA: San Andreas (PS2) на PSP: нативный движок и конвертер данных из своего образа диска (мир, машины, HUD, интерьеры, радио, катсцены, миссии). Официально игра в README не названа. `со своими копиями игры`
 - [shar-psp-engine](https://github.com/robvagin/shar-psp-engine) — The Simpsons: Hit & Run (PS2), нативный движок на PSPSDK, данные конвертируются из своего диска. `со своими копиями игры`
+- [recvx-psp](https://github.com/TheMrIron2/recvx-psp) — Resident Evil: Code Veronica X нативно на PSP на matching-декомпиляции PS2-версии: положить `recvx.iso` (USA) в корень репозитория, затем `make assets` и `make game`. Видео пережимаются в H.264 с ADPCM, нужен ffmpeg с libx264 и поддержкой ADS; каталог `build/psp/data` копируется рядом с `EBOOT.PBP`. `со своими копиями игры`
+- [PS2RC](https://github.com/SandstoneDev/PS2RC) — конвертер «свой PS2-диск → папка `PSP/GAME`»: код R5900 статически переводится в C, микрокод VU0/VU1 и модули IOP — в нативный код, сборка идёт через pspdev, есть GUI на Qt. Отлажен на GTA: San Andreas (PAL `SLES-52541` v2.01); на нём же строится порт RE4. `со своими копиями игры`
+- **Resident Evil 4 (PS2)** — WIP статической рекомпиляции на базе PS2RC, [анонс](https://www.reddit.com/r/PSP/comments/1x9hm7f/wip_resident_evil_4_on_the_psp/): грузятся логотипы, меню на GE, PMF-видео, звук, пролог и первый лес в 3D, но лес идёт на ~4–5 fps при цели 30. Репозитория пока нет, демо Part 1 обещано. Нужен PSP-2000/3000 и новее, PSP-1000 не хватает памяти; сборка из своего диска NTSC-U `SLUS-21134`. `со своими копиями игры`
 
 ### Nintendo 64
 
